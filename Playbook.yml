@@ -11,7 +11,7 @@
         name: start
         state: started
         enabled: true
-    - name: copy a file into /var/www/html
+    - name: create a file at /var/www/html
       shell: cd /var/www/html && echo "hello world" > index.html
       
 
